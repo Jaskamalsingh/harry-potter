@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NZ&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.gfont{
+    font-family: "Playwrite NZ", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.image{
+    height: 200px;
+    width: 200px;
+}
+.c-height{
+    height: 600px;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
